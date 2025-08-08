@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Law4Veterans</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Law4Veterans</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="appeals.html">Help with Appeals</a></li>
+                <li><a href="testimonials.html">Testimonials</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Contact Law4Veterans</h2>
+        <p>Contact us below so we can set up your free consultation.</p>
+        <h3>Contact Law4Veterans</h3>
+        <p>3440 Toringdon Way<br>
+        Charlotte, NC 28277</p>
+        <p>1-866-901-4044</p>
+        <p><a href="mailto:joe@law4veterans.com">joe@law4veterans.com</a></p>
+        <form action="#" method="post">
+            <label for="fname">*First name</label><br>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="lname">*Last name</label><br>
+            <input type="text" id="lname" name="lname"><br>
+            <label for="email_or_phone">*Email or phone</label><br>
+            <input type="radio" id="email" name="contact_pref" value="email" checked>
+            <label for="email">Email preferred</label><br>
+            <input type="radio" id="phone" name="contact_pref" value="phone">
+            <label for="phone">Phonecall preferred</label><br>
+            <label for="claim_status">*Was your Veterans Disability Claim DENIED or Under-Awarded by the VA?</label><br>
+            <input type="radio" id="denied" name="claim_status" value="denied" checked>
+            <label for="denied">Claim DENIED</label><br>
+            <input type="radio" id="low_comp" name="claim_status" value="low_comp">
+            <label for="low_comp">Compensation too low</label><br>
+            <input type="radio" id="other" name="claim_status" value="other">
+            <label for="other">Other</label><br>
+            <label for="decision_date">*When did you get your most recent VA Decision Letter?</label><br>
+            <input type="radio" id="less_than_year" name="decision_date" value="less_than_year" checked>
+            <label for="less_than_year">Less than 1 year ago</label><br>
+            <input type="radio" id="more_than_year" name="decision_date" value="more_than_year">
+            <label for="more_than_year">More than 1 year ago</label><br>
+            <label for="decision_letter">*Can you send us your most recent VA Decision Letter?</label><br>
+            <input type="radio" id="electronic" name="decision_letter" value="electronic" checked>
+            <label for="electronic">Yes, electronic copy</label><br>
+            <input type="radio" id="physical" name="decision_letter" value="physical">
+            <label for="physical">Yes, physical copy</label><br>
+            <input type="radio" id="other_letter" name="decision_letter" value="other">
+            <label for="other_letter">Other</label><br>
+            <label for="claims_ratings">*My VA Disability Claims/Ratings:</label><br>
+            <textarea id="claims_ratings" name="claims_ratings" rows="4" cols="50"></textarea><br>
+            <input type="checkbox" id="consent" name="consent" value="consent">
+            <label for="consent">*I consent to share with Law4Veterans, Joseph M. Bochicchio PLLC, and associates. I also consent to contact at the phone/email I provided in this form.</label><br>
+            <input type="submit" value="Submit">
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2025 Law4Veterans</p>
+    </footer>
+</body>
+</html>
