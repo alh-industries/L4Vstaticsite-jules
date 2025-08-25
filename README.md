@@ -1,12 +1,16 @@
 # Law4Veterans Static Site
 
-This project is a static website version of `www.Law4Veterans.com`.
+This project is a static website version of `www.Law4Veterans.com`
 
 ## Live Preview
 
 A live preview of the site is available while this development environment is running. You can access it at:
 
+Web url: ALH.llc
+
 [http://localhost:8000](http://localhost:8000)
+
+
 
 The server is running in the background. If you need to restart it, you can use the following command:
 
