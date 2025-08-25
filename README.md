@@ -6,7 +6,7 @@ This project is a static website version of `www.Law4Veterans.com`
 
 A live preview of the site is available while this development environment is running. You can access it at:
 
-Web url: ALH.llc
+Web url: https://ALH.llc
 
 [http://localhost:8000](http://localhost:8000)
 
